@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huynh Bao Huy Portfolio</title>
+    <link rel="stylesheet" href="style_lead.css">
+    <script src="https://kit.fontawesome.com/e7948a153f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sideBar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="honors.html">Honors & Awards</a></li>
+                    <li><a href="index.html#portfolios">Extra-Curricular</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="images/RESUME - HUYNH BAO HUY.pdf" download>Resume</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        var sideBar = document.getElementById("sideBar");
+        function openMenu(){
+            sideBar.style.right = 0;
+            sideBar.style.boxShadow =  "0px 0px 16px 0px rgba(0, 0, 0, 0.5)";
+        }
+        function closeMenu(){
+            sideBar.style.right = "-200px";
+            sideBar.style.boxShadow =  "0px 0px 16px 0px rgba(0, 0, 0, 0)";
+        }
+    </script>
+
+<!--Activity Description-->
+    
+    <div class="wrapper">
+        <div class="contentBox">
+            <div class="content">
+                <img src="leadership/nani/FULL FIELD.jpg" alt="">
+            </div>
+            <div class="overlay">
+                <h3>Head of Marketing, Media</h3>
+                <h2>NaNi Kids Futsal</h2>
+                <p>In my role as Head of Marketing and Media, I oversee the academy's marketing efforts and media production to drive engagement, promote programs, and support overall growth, with a focus on meaningful experiences for students and their families:</p>
+                <br>
+                <ul>
+                    <li>Developed and scripted 3 advertisement campaigns, resulting in an average of 30 new students per campaign.</li>
+                    <li>Collaborated with sponsors to plan key social media posts, ensuring contract fulfillment through branded media.</li>
+                    <li>Filmed over 55 educational football videos and captured photos/videos of classes and events to promote the academy's offerings.</li>
+                    <li>Organized more than 10 student events, including 5 tournaments, friendly matches, and outings, enhancing student engagement and community involvement.</li>
+                    <li>Strategized pricing models for classes, contributing to the academy’s growth to over 1000 students, 14k Facebook followers, and 121.8k TikTok likes.</li>
+                    <p style="font-style: italic;">(February 2023 - Present) <a href="https://www.facebook.com/TrungTamDaoTaoNaniKidsFutsal" target="_blank">Learn More</a></p>
+                </ul>
+              </div>
+        </div>
+    </div>
+
+<!--Photo Gallery-->
+
+    <div class="photo-container">
+        <div class="photo-gallery">
+            <div class="column">
+                <div class="photo">
+                    <img src="leadership/nani/DSC00257.JPG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/IMG_8855.JPG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/HVXS T5.png" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/z5671941912168_48441b208c1dceb6f8a6a73085464f16.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/DSC_7707.jpg" alt="">
+                </div>
+
+                
+            </div>
+
+            <div class="column">
+                
+                <div class="photo">
+                    <img src="leadership/nani/Cover ABOUT.png" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/Cover Act.png" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/z5516007003566_e56be47e96572d49395bfdacd8dc7a2d.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/IMG_8859.JPG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/IMG_7426.JPG" alt="">
+                </div>
+                
+            </div>
+
+            <div class="column">
+                
+                <div class="photo">
+                    <img src="leadership/nani/DSC08099.JPG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/DSC09922.JPG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/FULL FIELD.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/nani/z5516007013593_e7510b5081eb1507feab1e2fada3b4f4.jpg" alt="">
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="return">
+            <button onclick="window.location.href = 'index.html#portfolios'">Back To Leadership and Internship</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

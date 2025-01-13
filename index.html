@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huynh Bao Huy Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e7948a153f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sideBar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="honors.html">Honors & Awards</a></li>
+                    <li><a href="#portfolios">Extra-Curricular</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="images/RESUME - HUYNH BAO HUY.pdf" download>Resume</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+
+            <div class="header">
+                <h1>Hello world, I'm <span>Huy</span> <br> </h1>
+                <p>A Hobbyist Game Developer & Video Editor</p>
+            </div>
+        </div>
+    </div>
+
+<!-------------About Section------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user_1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">GREETINGS!</h1>
+                    <p>My full name is B.Huy Huynh, and I'm currently a senior at Hoang Hoa Tham High School in Vietnam.
+                        <br>I am an aspiring computer scientist, looking forward to improving the world through technology. 
+                        I've taught myself how to use Unity and C# to develop multiple game projects. 
+                        <br>Additionally, I've been learning Python for Data Science, and HTML-CSS-JS for Full Stack Web Development, which I've applied to create this website from scratch.
+                        <br>Besides from programming, I'm a part-time photographer and videographer for my school and other companies/authors.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------Personal Projects Tab--------------->
+
+    <div class="prj-honors1">
+        <video autoplay loop muted src="projs-images/GasMask_vid_2.mp4" alt="" ></video>
+        <div class="layers1">
+            <div class="btn">
+                <button id="button" onclick="window.location.href = 'projects.html'">
+                    <h3>Personal Projects</h3>
+                    <p>My passion projects related to coding, game development, and more</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+<!---------------Extra-Curricular Tab--------------->
+    <div id="portfolios">
+        <div class="container">
+
+            <h1 class="sub_2" >Leadership And Internship</h1>
+            <div class="proj-honors-list">
+                <div class="prj-honors">
+                    <img src="images/63.png" alt="">
+                    <div class="layers">
+                        <h3>63 Cassette</h3>
+                        <p>Hoang Hoa Tham High School Media Team</p>
+                        <a href="lead-63.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="prj-honors">
+                    <img src="images/catcanh.png" alt="">
+                    <div class="layers">
+                        <h3>Cat Canh</h3>
+                        <p>Performing Arts, Fashion, Elegant Students Contest</p>
+                        <a href="lead-catcanh.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="prj-honors">
+                    <img src="images/hpd.png" alt="">
+                    <div class="layers">
+                        <h3>Hoa Phuong Do</h3>
+                        <p>Hoang Hoa Tham High School Volunteering Club </p>
+                        <a href="lead-hpd.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="prj-honors">
+                    <img src="images/nani.png" alt="">
+                    <div class="layers">
+                        <h3>NaNi Kids Futsal</h3>
+                        <p>Football Academy</p>
+                        <a href="lead-nani.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <h1 class="sub_2" style="padding-top: 3%;">Honors, Awards And Others</h1>
+            <div class="proj-honors-list">
+                <div class="prj-honors">
+                    <img src="images/honors.png" alt="">
+                    <div class="layers">
+                        <h3>Honors And Awards</h3>
+                        <p>Here are some of my notable awards/certificates</p>
+                        <a href="honors.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="prj-honors">
+                    <img src="images/video.png" alt="">
+                    <div class="layers">
+                        <h3>Videography</h3>
+                        <p>Here are some standout video projects that I've done</p>
+                        <a href="videos.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="prj-honors">
+                    <img src="images/others.png" alt="">
+                    <div class="layers">
+                        <h3>Other Activites/Awards</h3>
+                        <p>Dancing, Volunteering, Sports, etc...</p>
+                        <a href="other-act.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script>
+        var sideBar = document.getElementById("sideBar");
+        function openMenu(){
+            sideBar.style.right = 0;
+            sideBar.style.boxShadow =  "0px 0px 16px 0px rgba(0, 0, 0, 0.5)";
+        }
+        function closeMenu(){
+            sideBar.style.right = "-200px";
+            sideBar.style.boxShadow =  "0px 0px 16px 0px rgba(0, 0, 0, 0)";
+        }
+
+    </script>
+
+<!-------Contact----------->    
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub_2">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> huynhbaohuy13032007@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +84 983501581</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/huynh.bao.huy.52208/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/hbhuy.13/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://discord.com/users/379486271384322050"target="_blank"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <a href="images/RESUME - HUYNH BAO HUY.pdf" class="resume" download>Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="resume">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Send data collected to google sheet-->
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzFub8A4AraNojGwFlE28saerUiHfIYf-qMORUa1ZOGEq8iRlL14TqWA_yJzH5ECkQ5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huynh Bao Huy Portfolio</title>
+    <link rel="stylesheet" href="style_lead.css">
+    <script src="https://kit.fontawesome.com/e7948a153f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sideBar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="honors.html">Honors & Awards</a></li>
+                    <li><a href="index.html#portfolios">Extra-Curricular</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="images/RESUME - HUYNH BAO HUY.pdf" download>Resume</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        var sideBar = document.getElementById("sideBar");
+        function openMenu(){
+            sideBar.style.right = 0;
+            sideBar.style.boxShadow =  "0px 0px 16px 0px rgba(0, 0, 0, 0.5)";
+        }
+        function closeMenu(){
+            sideBar.style.right = "-200px";
+            sideBar.style.boxShadow =  "0px 0px 16px 0px rgba(0, 0, 0, 0)";
+        }
+    </script>
+
+
+<!--Activity Description-->
+
+
+    <div class="wrapper">
+        <div class="contentBox">
+            <div class="content">
+                <img src="leadership/cat-canh/cc.jpg" alt="">
+            </div>
+            <div class="overlay">
+                <h3>Oragnizer, Co-Head Of Media</h3>
+                <h2>Cat Canh</h2>
+                <p>In my role as the Organizer and Co-Head Of Media, I designed the stage layout, as well as organized the contest's props. I coordinated audiovisual needs for the contestants, ensuring the production quality was top-notch during rehearsals, including managing video, sound, and lighting. In addition, I took part in photo-videographing the event:</p>
+                <br>
+                <ul>
+                    <li>Successfully attracted 6 sponsors, securing over $500 in prizes for over 70 participants across 36 classes.</li>
+                    <li>Managed social media content, event photography, and video editing for promotional posts, contributing to the event's visibility and engagement.</li>
+                    <li>Played a pivotal role in organizing the event and ensuring everything ran seamlessly for the performers and audience.</li>
+                    <p style="font-style: italic;">(October 2022 – December 2022) <a href="https://www.facebook.com/tuoitre.hhtdn/videos/840155947228230/?rdid=tmb3kB9tzbmONbe9" target="_blank">Learn More</a></p>
+                </ul>
+              </div>
+        </div>
+    </div>
+
+    <!--Photo Gallery-->
+
+    <div class="photo-container">
+        <div class="photo-gallery">
+            <div class="column">
+                <div class="photo">
+                    <img src="leadership/cat-canh/312717760_875300190353779_6096046092965543803_n.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_0119.PNG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_9964.JPG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_8954.jpg" alt="">
+                </div>
+
+                
+            </div>
+
+            <div class="column">
+                <div class="photo">
+                    <img src="leadership/cat-canh/316413297_896719201545211_6053684043713425582_n.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_8138.JPG" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_8788.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/316431557_896725174877947_8248528107097879607_n.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_8838.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="photo">
+                    <img src="leadership/cat-canh/316427439_896721374878327_2035052435291630392_n.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/316679587_896720738211724_6990299099548636146_n.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_0327.jpg" alt="">
+                </div>
+                <div class="photo">
+                    <img src="leadership/cat-canh/IMG_0115.JPG" alt="">
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="return">
+            <button onclick="window.location.href = 'index.html#portfolios'">Back To Leadership and Internship</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
