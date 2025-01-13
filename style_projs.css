@@ -97,7 +97,6 @@ nav ul li a:hover::after{
     height: 100%;
     object-fit: cover;
     object-position: center;
-    z-index: 1;
 }
 
 
@@ -109,16 +108,15 @@ nav ul li a:hover::after{
     left: 0;
     bottom: 0;
     background-image: linear-gradient(to top, black 40%, transparent);
-    z-index: 3;
 }
 
 .slider .list .item .content{
     position: absolute;
     left: 10%;
-    top: clamp(60px, 5.9vw, 120px);    
+    top: clamp(50px, 5.9vw, 120px);    
     width: 500px;
     max-width: 80%;
-    z-index: 5;
+    z-index: 1;
 }
 
 .slider .list .item .content p:nth-child(1){
@@ -184,6 +182,7 @@ nav ul li a:hover::after{
 }
 
 .arrows button:hover{
+    cursor: pointer;
     background-color: white;
     color: #0C0A1F;
 }
@@ -223,6 +222,10 @@ nav ul li a:hover::after{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.thumbnail .item img:hover{
+    cursor: pointer;
 }
 
 @keyframes activeContent {
@@ -330,15 +333,15 @@ nav .fa-solid{
     .slider .list .item .content p:nth-child(3){
         padding-top: 5px;
         line-height: 20px;
-        font-size: 13px;
+        font-size: clamp( 10px,2.1vw, 13px);
     }
     .slider .list .item .content a{
-        font-size: 14px;
+        font-size: clamp( 10px,2.1vw, 13px);
     }
     
     .slider .list .item .content h2{
-        padding-top: 5px;
-        font-size: 32px;
+        padding-top: 3px;
+        font-size: clamp(15px,5.3vw, 35px);
     }
     
     .thumbnail{

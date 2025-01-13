@@ -95,6 +95,7 @@ nav .fa-solid{
 }
 
 .return button:hover{
+    cursor: pointer;
     background-color: white;
     color: #0C0A1F;
 }
@@ -262,6 +263,7 @@ a{
 }
 
 .arrows button:hover{
+    cursor: pointer;
     background-color: white;
     color: #0C0A1F;
 }
